@@ -16,13 +16,12 @@ body {
     height: 100%;
     background-color: lightskyblue;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-rows: 1fr 1.5fr;
 }
 
 #screen {
-    width: 100%;
-    background-color: #404040;
     padding: 40px;
+    background-color: #404040;
     color: snow;
     font-size: 64px;
     font-weight: bold;
@@ -64,4 +63,8 @@ button:focus {
 #keyEighteen {
     grid-column: 4;
     grid-row: 4/6;
+}
+
+#expression {
+    width: 90%;
 }
