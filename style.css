@@ -25,6 +25,7 @@ body {
     color: snow;
     font-size: 64px;
     font-weight: bold;
+    position: relative;
 }
 
 #buttons {
@@ -66,5 +67,14 @@ button:focus {
 }
 
 #expression {
-    width: 90%;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+}
+
+#result {
+    text-align: end;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    padding: 20px;
 }
